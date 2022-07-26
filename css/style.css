@@ -5,3 +5,23 @@ Light green: #96b125	(150,177,37)
 Orange: #fea938	(254,169,56)
 Yellow beige: #fcec9a	(252,236,154)
 */
+
+:root {
+  --deepgreen: #457d00;
+  --yellowgreen: #c6c736;
+  --lightgreen: #96b125;
+  --pumpkinorange: #fea938;
+  --yellowbeige: #fcec9a;
+}
+
+h1 {
+    background-color: var(--deepgreen);
+    color: var(--yellowgreen);
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+}
+
+body {
+    background-color: var(--yellowbeige);
+}
