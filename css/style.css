@@ -14,14 +14,46 @@ Yellow beige: #fcec9a	(252,236,154)
   --yellowbeige: #fcec9a;
 }
 
+html {
+  font-size: 1.2rem;
+}
+
 h1 {
     background-color: var(--deepgreen);
     color: var(--yellowgreen);
     text-align: center;
     padding: 1rem 0;
     border-bottom: 1px solid black;
+    font-family: Courgette, cursive;
 }
 
 body {
     background-color: var(--yellowbeige);
 }
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {
+}*/
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {
+} */
+
+/*@media only screen and (min-width: 600px) and (orientation: portrait) {
+}
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+}*/
+  
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {
+}*/
+  
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+} */
+  
+/* Extra large devices (large laptops and desktops, 1370px and up) */
+/*@media only screen and (min-width: 1370px) {
+}*/
