@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-  background: linear-gradient(90deg, var(--deepgreen), var(--lightgreen), var(--deepgreen));
+  background: linear-gradient(90deg, var(--lightgreen), var(--deepgreen), var(--lightgreen));
   color: var(--yellowgreen);
   text-align: center;
   padding: 1rem 0;
