@@ -18,17 +18,29 @@ html {
   font-size: 1.2rem;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 h1 {
-    background-color: var(--deepgreen);
-    color: var(--yellowgreen);
-    text-align: center;
-    padding: 1rem 0;
-    border-bottom: 1px solid black;
-    font-family: Courgette, cursive;
+  background-color: var(--deepgreen);
+  color: var(--yellowgreen);
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+  font-family: Courgette, cursive;
 }
 
 body {
-    background-color: var(--yellowbeige);
+  background-color: var(--yellowbeige);
+}
+
+footer {
+    border-top: 1px solid black;
+    padding: 1rem 0 1rem 1rem;
 }
 
 /* MEDIA QUERIES */
