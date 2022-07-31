@@ -9,7 +9,7 @@ Yellow beige: #fcec9a	(252,236,154)
 :root {
   --deepgreen: #457d00;
   --yellowgreen: #c6c736;
-  --lightgreen: #96b125;
+  --lightergreen: #96b125;
   --pumpkinorange: #fea938;
   --yellowbeige: #fcec9a;
 }
@@ -23,19 +23,47 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: var(--yellowbeige);
 }
 
 h1 {
-  background: linear-gradient(90deg, var(--lightgreen), var(--deepgreen), var(--lightgreen));
+  background: linear-gradient(90deg, var(--lightergreen), var(--deepgreen), var(--lightergreen));
   color: var(--yellowgreen);
   text-align: center;
   padding: 1rem 0;
   border-bottom: 1px solid black;
   font-family: Courgette, cursive;
+  margin-bottom: 0;
 }
 
-body {
-  background-color: var(--yellowbeige);
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+}
+
+nav li {
+  border: 1px solid black;
+  width: 33.3%;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 0;
+  background-color: var(--pumpkinorange);
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--deepgreen);
+}
+
+li.current-page {
+  padding: 0.5rem 0;
 }
 
 footer {
