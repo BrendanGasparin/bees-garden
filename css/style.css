@@ -36,6 +36,10 @@ h1 {
   margin-bottom: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -64,6 +68,11 @@ nav a:hover {
 
 li.current-page {
   padding: 0.5rem 0;
+}
+
+figure img {
+  display: block;
+  margin: 2rem auto;
 }
 
 footer {
