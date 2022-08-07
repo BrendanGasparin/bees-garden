@@ -29,15 +29,14 @@ body {
 h1 {
   background: linear-gradient(90deg, var(--lightergreen), var(--deepgreen), var(--lightergreen));
   color: var(--yellowgreen);
-  text-align: center;
   padding: 1rem 0;
   border-bottom: 1px solid black;
-  font-family: Courgette, cursive;
   margin-bottom: 0;
 }
 
-h2 {
+h1, h2 {
   text-align: center;
+  font-family: Courgette, cursive;
 }
 
 nav ul {
@@ -49,7 +48,7 @@ nav ul {
 
 nav li {
   border: 1px solid black;
-  width: 33.3%;
+  width: 25%;
   text-align: center;
 }
 
