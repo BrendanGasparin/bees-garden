@@ -69,6 +69,12 @@ li.current-page {
   padding: 0.5rem 0;
 }
 
+p.scientific-name {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
 figure img {
   display: block;
   margin: 2rem auto;
