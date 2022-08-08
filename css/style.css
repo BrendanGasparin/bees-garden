@@ -82,6 +82,10 @@ figure img {
   border-radius: 12px;
 }
 
+span.row-description {
+  font-weight: bold;
+}
+
 footer {
     border-top: 1px solid black;
     padding: 1rem 0 1rem 1rem;
